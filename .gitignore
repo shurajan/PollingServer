@@ -1,0 +1,40 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environment folders
+venv/
+env/
+.venv/
+
+# Ignore PyCharm project settings
+.idea/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore database files
+*.sqlite3
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment variable files
+.env
+
+# Ignore Uvicorn and FastAPI auto-generated files
+*.db
+
+# Ignore Python packaging files
+*.egg-info/
+dist/
+build/
+
+# Ignore coverage report
+.coverage
+htmlcov/
