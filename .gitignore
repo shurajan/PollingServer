@@ -7,8 +7,6 @@ __pycache__/
 venv/
 env/
 .venv/
-certificates/
-test/
 
 # Ignore PyCharm project settings
 .idea/
