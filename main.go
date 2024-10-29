@@ -93,7 +93,6 @@ func main() {
 
 	log.Println("Server started on http://localhost:8000")
 
-	// Wait for interrupt signal to gracefully shutdown the server with a timeout
 	quit := make(chan os.Signal, 1)
 	signal.Notify(quit, syscall.SIGINT, syscall.SIGTERM)
 	<-quit
